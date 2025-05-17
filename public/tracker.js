@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/api/track", {
+fetch("https://analytics-chi-silk.vercel.app/api/track", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
